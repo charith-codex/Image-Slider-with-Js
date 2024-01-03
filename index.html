@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Slider</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Image Slider</h1>
+
+    <div class="slider">
+        <div class="sliders">
+            <img class="slide" src="images/1.jpg">
+            <img class="slide" src="images/2.jpg">
+            <img class="slide" src="images/3.jpg">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
