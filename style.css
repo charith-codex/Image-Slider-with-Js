@@ -1,11 +1,8 @@
-.slider {
-    position: relative;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
+.big-title{
+    font-size: 5rem;
+    color: brown;
 }
 
-.slider img {
-    width: 400px;
-    display: none;
+.md{
+    margin: 50px;
 }
