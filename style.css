@@ -1,8 +1,15 @@
-.big-title{
-    font-size: 5rem;
-    color: brown;
+.slider {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.md{
-    margin: 50px;
+.slider img {
+    width: 400px;
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
 }
